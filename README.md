@@ -7,5 +7,5 @@ This repo will give you more practice with reading unit tests and implementing f
 Clone the repository: `git clone git@github.com:turingschool-examples/unit-testing-practice.git`  
 CD into the directory: `cd unit-testing-practice`  
 Install dependencies: `npm install`  
-Open in your text editor.  For example: `atom .`  
+Open in your text editor.  For example: `code .`  
 Run the tests: `npm test`  
