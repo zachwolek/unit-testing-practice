@@ -5,28 +5,7 @@ var createUser = require('./practice').createUser;
 var makePizza = require('./practice').makePizza;
 
 describe('practice', function () {
-  describe('findRemainder', function () {
-    it.skip('should calculate the remainder when dividing the first number by the second', function () {
-      var remainder = findRemainder(12, 5);
-
-      assert.equal(remainder, 2);
-    });
-
-    it.skip('should calculate the remainder for a different set of numbers', function () {
-      var remainder = findRemainder(12, 7);
-
-      assert.equal(remainder, 5);
-    })
-
-    it.skip('should return 0 if the number can be divided easily', function () {
-      var remainder = findRemainder(20, 4);
-
-      assert.equal(remainder, 0)
-    });
-  });
-
   describe('startGPS', function () {
-
     it.skip('should be able to take you to a new location', function () {
       var currentLocation = 'home';
       var newLocation = 'Starbucks';
@@ -115,6 +94,26 @@ describe('practice', function () {
       makePizza(pizza, 'ham');
 
       assert.deepEqual(pizza.toppings, ['cheese', 'pepperoni', 'jalapenos', 'pineapple', 'black olives']);
+    });
+  });
+
+  describe('findRemainder', function () {
+    it.skip('should calculate the remainder when dividing the first number by the second', function () {
+      var remainder = findRemainder(12, 5);
+
+      assert.equal(remainder, 2);
+    });
+
+    it.skip('should calculate the remainder for a different set of numbers', function () {
+      var remainder = findRemainder(12, 7);
+
+      assert.equal(remainder, 5);
+    })
+
+    it.skip('should return 0 if the number can be divided easily', function () {
+      var remainder = findRemainder(20, 4);
+
+      assert.equal(remainder, 0)
     });
   });
 });

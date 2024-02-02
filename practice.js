@@ -1,10 +1,10 @@
-function findRemainder() {
+function startGPS() {
 
 }
 
 module.exports = {
-  findRemainder,
-  // startGPS,
+  startGPS,
   // createUser,
-  // makePizza
+  // makePizza,
+  // findRemainder
 }
